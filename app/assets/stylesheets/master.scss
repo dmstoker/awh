@@ -58,16 +58,14 @@ img.wwlogo {
 
 
 	body {
-    background: image_url('logo.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: image_url('awhq.png')
   }
 
 
 	.navbar {
-  background-color: #A0D0CA
+
+	background: image_url('light-wool.png');
+	background-color: #A0D0CA;
 
   }
 
@@ -118,4 +116,16 @@ img.wwlogo {
 
 .card.form {
   padding: 20px;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  height: 550px;
+  width: 100%;
 }
