@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+    </style>
+
     <title>Austin Wedding Helpers</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta name="viewport" content="height=device-height, initial-scale=1">  
+    <meta name="viewport" content="height=device-height, initial-scale=1">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <nav class="navbar navbar-toggleable-md navbar-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <img>
-      <%=image_tag("logo.png", class:"logo", alt: "Example Image")%>
-      </img>
-
-    </nav>
+      <div class:="class:" 'sm-3'>
+  <%= link_to 'Austin Wedding Helpers', root_path, class: 'navbar-brand' %>
+</div>
+  </nav>
 
 
     <%= yield %>
