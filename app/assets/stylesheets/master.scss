@@ -11,6 +11,14 @@ img.wwlogo {
 
 }
 
+@media only screen and (max-width: 600px) {
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
   .booyah-box {
     -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
     -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,6 +33,27 @@ img.wwlogo {
     opacity: .7
   }
 
+	.carousel-item-next,
+	.carousel-item-prev,
+	.carousel-item.active {
+	  display: block;
+	}
+
+	.carousel-caption {
+	  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	  font-size: 60px;
+	  font-weight: 100;
+	  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+	  max-width: 733px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
+	.carousel {
+	  max-width: 733px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
 
   .navbar {
      background: image_url('bg.jpg') no-repeat center center fixed;
