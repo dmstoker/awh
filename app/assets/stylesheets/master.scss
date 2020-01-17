@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 img.logo {
 	width: 120px;
@@ -62,4 +63,13 @@ img.wwlogo {
   }
 	.navbar {
   background-color: #A0D0CA
+
   }
+
+	.navbar-inverse .navbar-brand {
+  color: white;
+	font-family: 'Satisfy';
+  font-weight: 600;
+  letter-spacing: -0.3px;
+	font-size: 30px;
+}
