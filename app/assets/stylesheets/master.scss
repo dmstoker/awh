@@ -45,20 +45,20 @@ img.wwlogo {
 	  font-size: 60px;
 	  font-weight: 100;
 	  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-	  max-width: 733px;
+	  max-width: 800px;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
 
 	.carousel {
-	  max-width: 733px;
+	  max-width: 773px;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
 
 
 	body {
-    background: image_url('awhq.png')
+
   }
 
 
@@ -77,14 +77,6 @@ img.wwlogo {
 	font-size: 30px;
 }
 
-.card {
-  background-color: #fff;
-  border-radius: .25rem;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  border: 1px solid #e8e8e8;
-  margin-top: 40px;
-  padding: 0;
-}
 
 .handle {
   margin: 10px;
@@ -95,11 +87,12 @@ img.wwlogo {
 
 .card {
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: .75rem;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #e8e8e8;
   margin-top: 40px;
-  padding: 0;
+  padding: 10px;
+	margin-right: 50px;
 }
 
 .handle {
@@ -128,4 +121,8 @@ img.wwlogo {
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   height: 350px;
   width: 100%;
+}
+
+.container{
+	margin-left: 20px;
 }
