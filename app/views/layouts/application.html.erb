@@ -3,6 +3,7 @@
   <head>
     <style>
       @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+      @import "font-awesome";
     </style>
 
     <title>Austin Wedding Helpers</title>
@@ -26,19 +27,64 @@
 
   </head>
   <body>
-
-
-
-    <nav class="navbar navbar-toggleable-md navbar-inverse">
+   <div id="flex-content-container">
+     <nav class="navbar navbar-toggleable-md navbar-inverse ">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class:="class:" 'sm-3'>
-  <%= link_to 'Austin Wedding Helpers', root_path, class: 'navbar-brand' %>
+      <%= link_to 'Austin Wedding Helpers', root_path, class: 'navbar-brand' %>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item">
+          <%= link_to 'DJ Info', dj_path, class: 'nav-link' %>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <%= yield %>
+  </div>
+<br>
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <b>Services</b>
+        <br />
+        <%= link_to 'DJ', dj_path %>
+        <br />
+        <%= link_to 'Day of Cooridnation', '#' %>
+        <%= link_to 'Bartenders and Helpers', '#' %>
+        <br />
+      </div>
+      <div class="about col ">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Apply to work with Us', '#' %>
+        <br />
+      </div>
+      <div class="contact col">
+        <b>Contact</b>
+        <br />
+        Info@austinweddinghelpers.com
+        <br />
+        <i class="fa fa-mobile"></i>  512-750-6817
+        <br />
+        Social:
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-facebook-square"></span>
+        <span class="fa fa-pintrest-square"></span>
+        </div>
+      </div>
+</div>
 </div>
 
-  </nav>
-    <%= yield %>
+
+
+
+
 
   </body>
 

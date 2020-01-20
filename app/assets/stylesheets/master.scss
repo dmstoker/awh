@@ -1,9 +1,11 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import "font-awesome";
 
 img.logo {
 	width: 120px;
 	height: 70px;
+
 	}
 
 img.wwlogo {
@@ -12,7 +14,7 @@ img.wwlogo {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .user-info {
     display: flex;
     flex-direction: column;
@@ -40,18 +42,10 @@ img.wwlogo {
 	  display: block;
 	}
 
-	.carousel-caption {
-	  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-	  font-size: 60px;
-	  font-weight: 100;
-	  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-	  max-width: 800px;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
+
 
 	.carousel {
-	  max-width: 773px;
+	  max-width: 600px;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
@@ -90,9 +84,12 @@ img.wwlogo {
   border-radius: .75rem;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #e8e8e8;
-  margin-top: 40px;
+  margin-right: 10px;
+
 	font-size: 15px;
-	margin-right: 10px;
+  padding-bottom: -15px;
+	height: 400px;
+
 }
 
 h1{
