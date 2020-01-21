@@ -96,7 +96,12 @@ h1{
 }
 
 
+.djpic{
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 
+}
 
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
@@ -112,5 +117,17 @@ h1{
 }
 
 .container{
+
+}
+
+.card2 {
+  background-color: #fff;
+  border-radius: .75rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-right: 10px;
+	font-size: 15px;
+  padding-bottom: -15px;
+	height: 650px;
 
 }
