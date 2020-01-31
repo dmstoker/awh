@@ -4,4 +4,10 @@ class EmailsController < ApplicationController
 
     def dj
     end
+
+    def coordinator
+    end
+
+    def form1
+    end
   end

@@ -66,13 +66,81 @@
    <div class="booyah-box2 text-center">
      <br>
     <h2> Request a Quote <h2>
-      <button type="button" class="button" data-toggle="modal" data-target="#myModal">
-  For A Wedding
-</button>
+      <button type="button" class="button" data-toggle="modal" data-target="#exampleModal">
+        For a wedding
+      </button>
+
 <button type="button" class="button" data-toggle="modal" data-target="#myModal">
 For A Party
 </button>
   </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="form1">
+
+
+      <div class="modal-body">
+
+         <div class="booyah-box2 col-10 offset-1">
+
+
+          <form action="/html/tags/html_form_tag_action.cfm">
+          <fieldset class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name">
+          </fieldset>
+          <fieldset class="form-group">
+          <label for="Email">Email</label>
+          <input type="text" class="form-control" id="Email" name="email">
+          </fieldset>
+           <fieldset class="form-group">
+            <label for="Venue">Venue Name</label>
+            <input type="text" class="form-control" id="venue" name="venue">
+            </fieldset>
+            <fieldset class="form-group">
+            <label for="Guest">Guest Count</label>
+            <input type="text" class="form-control" id="guest" name="guest">
+            </fieldset>
+        <div class="text-center">
+        <label for="services_needed">Services Needed</label>
+        <br>
+
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="1">
+        <label class="form-check-label">DJ</label>
+        </div> <br>
+
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="2">
+        <label class="form-check-label">Day of Coordination</label>
+         </div>
+
+        <br>
+
+        <div class="form-check form-check-inline>">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="3">
+        <label class="form-check-label">Servers/Helpers</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="4">
+        <label class="form-check-label">Bartenders</label>
+        </div>
+
+
+           <br>
+           <div class="col-md-12">
+                   <input type="submit" class="btn btn-success btn-send" value="Send message">
+               </div>
+
+        
+           </div>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+
 
   <script src="https://cdn1.weddingwire.com/js/wp-widget.js?ssl-sf-sui-20200117-02US240-1_www_m_"></script>
   <div id="wp-widget-reviews">
